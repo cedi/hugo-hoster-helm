@@ -3,6 +3,29 @@ entries:
   hugo-hoster:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-09-14T09:40:38.14252773Z"
+    description: A Helm chart for hosting hugo blogs in Kubernetes with S3 to serve
+      the static content.
+    digest: 008b7aa777a7c17117b751941ed0ef6b8a7c44e5b62112ab81ba3c53e35e5b11
+    home: https://github.com/cedi/hugohoster-api
+    keywords:
+    - hugo
+    - staticpage
+    - html
+    - hosting
+    kubeVersion: '>=v1.23.0-0'
+    maintainers:
+    - name: cedi
+      url: https://cedi.dev
+    name: hugo-hoster
+    sources:
+    - https://github.com/hugo-hoster/hugo-hoster
+    type: application
+    urls:
+    - https://github.com/hugo-hoster/hugo-hoster-helm/releases/download/hugo-hoster-0.0.3/hugo-hoster-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-09-14T09:21:55.867935281Z"
     description: A Helm chart for hosting hugo blogs in Kubernetes with S3 to serve
       the static content.
@@ -24,4 +47,4 @@ entries:
     urls:
     - https://github.com/hugo-hoster/hugo-hoster-helm/releases/download/hugo-hoster-0.0.2/hugo-hoster-0.0.2.tgz
     version: 0.0.2
-generated: "2023-09-14T09:21:55.867942581Z"
+generated: "2023-09-14T09:40:38.142542931Z"
