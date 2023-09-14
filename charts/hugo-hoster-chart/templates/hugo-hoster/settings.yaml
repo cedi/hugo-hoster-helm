@@ -6,5 +6,5 @@ metadata:
   labels:
     {{- include "hugohoster.labels" . | nindent 4 }}
 spec:
-  {{- toYaml .Values.hugohoster.settings }}
+  {{- toYaml .Values.hugohoster.settings.spec | nindent 2 }}
 {{- end }}
